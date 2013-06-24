@@ -104,3 +104,31 @@ public class DSCMultiDiv
         }
     }
 }
+
+
+ import java.util.Scanner;   
+  public class nombre_archivo    
+      {            
+         public static void main (String [] args)          
+           {              
+           Scanner lector = new Scanner(System.in);        
+  
+            int a; //declaramos las variables             
+            int b; //declaramos las variables              
+            int c; //declaramos las variables             
+  
+  /********ahora empezamos con el codigo(las operaciones)********/
+  
+                 System.out.print("Ingrese A= ");      /* aqui estamos mostrando un mensaje                                                                                    para informar que sebe ingresar un dato*/
+ 
+                 a = lector.nextInt();  
+  
+                 System.out.print("Ingrese B= ");               
+                  b = lector.nextInt();                /* aqui vemos el metodo de ingreso de datos                                                                                              Scanner funcionado*/
+
+                       c = a + b;            
+
+                System.out.println("la suma A+B= ["+c+"]");         
+  }
+
+ }
